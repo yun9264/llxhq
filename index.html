@@ -127,10 +127,9 @@
             </div>
             <div class="form-group">
 		<!--	<p><a href="/" class="nk-menu-link nk-ibx-action-item"><img src="/" alt="AD-IMG" title="AD-IMG" /></a></p> -->
-			
-			<p><a target="_blank" title="51la网站统计" href="https://v6.51.la/land/JpQlHp8uIBmFzxLI"><img src="https://sdk.51.la/icon/3-5.png"></a>Tip:速度不满意？请尝试手工切换节点，加大线程</p>
-		    <p>如果不习惯的话，可以<a href="./old">→ 点我切换回旧版 ←</a></p>
-                <label class="form-label">下载链接</label>
+			<p><a target="_blank" title="51la网站统计" href="https://v6.51.la/land/JpQlHp8uIBmFzxLI"><img src="https://sdk.51.la/icon/3-5.png"></a>Tip:速度不满意？请尝试手工切换节点或者加大线程</p>
+		    <p>如果不习惯或者需要自定义消耗流量数量，可以<a href="./old">→ 点我切换回旧版 ←</a>，本页面不支持自定义消耗流量数量！</p>
+                <label class="form-label">下载节点</label>
                 <div class="form-control-wrap">
 		<select  type="text" v-model="set.input"  class="form-control">
 			<option value="https://i0.hdslb.com/bfs/album/6a259a872289fbf56e61876c9b8870a9868325af.jpg" selected = "selected">B站非免流 [默认]</option>
@@ -138,7 +137,6 @@
 				<option value="">↓↓ 百度 ↓↓</option>
 			<option value="https://wppkg.baidupcs.com/issue/netdisk/apk/BaiduNetdisk_10.1.02.apk">百度网盘</option>
 			<option value="https://imeres.baidu.com/imeres/ime-res/guanwang/img/UOS-fcitx-baidupinyin-64.zip">百度输入法</option>
-			
 				<option value="">↓↓ 阿里巴巴 ↓↓</option> 
 			<option value="https://img.alicdn.com/imgextra/i1/O1CN01xA4P9S1JsW2WEg0e1_!!6000000001084-2-tps-2880-560.png">阿里图片CDN域名加速</option>
 			<option value="https://gw.alipayobjects.com/os/volans-demo/f44c302e-b704-4a70-bcc6-0214e37ca256/MiniProgramStudio-1.17.4.exe">支付宝开放平台</option>
@@ -146,6 +144,8 @@
 			<option value="https://game.gtimg.cn/images/nz/web202106/index/bc_part1.gif?0.3190485611376561">腾讯游戏</option>
 				<option value="">↓↓  B站 ↓↓</option>
 			<option value="https://i0.hdslb.com/bfs/album/6a259a872289fbf56e61876c9b8870a9868325af.jpg?0.3190485611376561">B站图片（非免流）</option>
+			        <option value="">↓↓  爱奇艺 ↓↓</option>
+			<option value="http://aliyuncoccdncmnet-hd2.inter.iqiyi.com/videos/other/20220929/56/33/4284b480482b471cea482c3cad8b15a3.mp4">爱奇艺视频（移动随心选定向）</option>
 			        <option value="">↓↓ 京东 ↓↓</option> 
 			<option value="https://img10.360buyimg.com/live/jfs/t1/128947/12/26918/1361527/6260e71bE0ee85af5/ecaa17ea8dd3dddb.jpg">京东商城图片CDN服务</option>
 							<option value="">↓↓  网易 ↓↓</option> 
@@ -239,18 +239,16 @@
 				Tips: 如手机套餐内含头条系，阿里系，百度系等定向流量，填写免流量的资源URL，即可直接消耗免费的定向流量</p>
 				<p>如果是要消耗机场流量,建议使用海外节点,速度可能会更快</p>
 				 <p>注：虽支持可自定义下载地址 但无法请求跨域链接</p>
-				 <p>	
-				 <hr>
-				 
-				 <p> 感谢您对流量消耗事业做出的贡献!</p>
-         <!--    <p>您的访问信息如下：</p>
+	<!-- <hr>
+	 <p> 感谢您对流量消耗事业做出的贡献!</p>
+             <p>您的访问信息如下：</p>
 			<li class="nk-menu-item ">
 		   <p class="text-danger"><script>ipinfo()</script></p> 
 		   <p>
 		   </li>
 		   <img src="https://" onError="this.src=''">
 		   </p> -->
-		  <a href="./old" class="nk-menu-link nk-ibx-action-item">→ 点我切换回旧版 ←</a>
+		<p>如果不习惯或者需要自定义消耗流量数量，可以<a href="./old" class="nk-menu-link nk-ibx-action-item">→ 点我切换回旧版 ←</a>，本页面不支持自定义消耗数量！</p>
 			 <hr>					
 	 <!-- 这里可以留统计详细 -->
 	 <script id="LA-DATA-WIDGET" crossorigin="anonymous" charset="UTF-8" src="https://v6-widget.51.la/v6/JpQlHp8uIBmFzxLI/quote.js?theme=0&f=12&display=1,1,1,1,1,1,0,0"></script>
@@ -262,7 +260,7 @@
 
             <div class="mt-5 text-center">
            <p id='hitokoto' class="text-gray"></p>
-     <a href="https://" class="btn btn-sm btn-outline-light ">
+     <a href="/" class="btn btn-sm btn-outline-light ">
            <em class="icon ni ni-heart"> 收藏本页</em> <em class="icon ni ni-heart"> </em>
 		   </a>
 		   <br/>
